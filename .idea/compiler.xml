@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="File_Type_Analyzer_(Java)-task_main" target="11" />
+      <module name="File_Type_Analyzer_(Java)-task_test" target="11" />
+      <module name="Problems-A_substring_of_the_maximal_length_main" target="11" />
+      <module name="Problems-A_substring_of_the_maximal_length_test" target="11" />
+      <module name="Problems-Account_Service_main" target="11" />
+      <module name="Problems-Account_Service_test" target="11" />
+      <module name="Problems-Compact_strings_with_AsciiCharSequence_main" target="11" />
+      <module name="Problems-Compact_strings_with_AsciiCharSequence_test" target="11" />
+      <module name="Problems-Concat_positive_numbers_main" target="11" />
+      <module name="Problems-Concat_positive_numbers_test" target="11" />
+      <module name="Problems-Count_the_number_of_merge_operations_main" target="11" />
+      <module name="Problems-Count_the_number_of_merge_operations_test" target="11" />
+      <module name="Problems-Find_mistake_main" target="11" />
+      <module name="Problems-Find_mistake_test" target="11" />
+      <module name="Problems-Find_the_nearest_number_main" target="11" />
+      <module name="Problems-Find_the_nearest_number_test" target="11" />
+      <module name="Problems-Finding_substrings_in_a_matrix_main" target="11" />
+      <module name="Problems-Finding_substrings_in_a_matrix_test" target="11" />
+      <module name="Problems-Getting_current_thread_info_main" target="11" />
+      <module name="Problems-Getting_current_thread_info_test" target="11" />
+      <module name="Problems-IntBinaryOperation_main" target="11" />
+      <module name="Problems-IntBinaryOperation_test" target="11" />
+      <module name="Problems-Iterations_main" target="11" />
+      <module name="Problems-Iterations_test" target="11" />
+      <module name="Problems-Max_and_Min_main" target="11" />
+      <module name="Problems-Max_and_Min_test" target="11" />
+      <module name="Problems-Merge_all_sequences_main" target="11" />
+      <module name="Problems-Merge_all_sequences_test" target="11" />
+      <module name="Problems-Mutable_geometric_shapes_main" target="11" />
+      <module name="Problems-Mutable_geometric_shapes_test" target="11" />
+      <module name="Problems-Non-overlapping_occurrences_of_a_pattern_main" target="11" />
+      <module name="Problems-Non-overlapping_occurrences_of_a_pattern_test" target="11" />
+      <module name="Problems-Ordering_execution_of_threads_main" target="11" />
+      <module name="Problems-Ordering_execution_of_threads_test" target="11" />
+      <module name="Problems-Output_the_list's_elements_main" target="11" />
+      <module name="Problems-Output_the_list's_elements_test" target="11" />
+      <module name="Problems-Pick_your_team_main" target="11" />
+      <module name="Problems-Pick_your_team_test" target="11" />
+      <module name="Problems-Publication_and_its_subclasses_main" target="11" />
+      <module name="Problems-Publication_and_its_subclasses_test" target="11" />
+      <module name="Problems-Publications_main" target="11" />
+      <module name="Problems-Publications_test" target="11" />
+      <module name="Problems-Saying_animals_main" target="11" />
+      <module name="Problems-Saying_animals_test" target="11" />
+      <module name="Problems-Shape_hierarchy_main" target="11" />
+      <module name="Problems-Shape_hierarchy_test" target="11" />
+      <module name="Problems-Shapes_area_main" target="11" />
+      <module name="Problems-Shapes_area_test" target="11" />
+      <module name="Problems-Starting_multiple_threads_-_1_main" target="11" />
+      <module name="Problems-Starting_multiple_threads_-_1_test" target="11" />
+      <module name="Problems-Starting_multiple_threads_-_2_main" target="11" />
+      <module name="Problems-Starting_multiple_threads_-_2_test" target="11" />
+      <module name="Problems-The_number_of_inversions_main" target="11" />
+      <module name="Problems-The_number_of_inversions_test" target="11" />
+      <module name="Problems-The_number_of_required_shifts_main" target="11" />
+      <module name="Problems-The_number_of_required_shifts_test" target="11" />
+      <module name="Problems-Users_and_WebSites_main" target="11" />
+      <module name="Problems-Users_and_WebSites_test" target="11" />
+      <module name="Problems-Writing_a_thread_for_printing_numbers_main" target="11" />
+      <module name="Problems-Writing_a_thread_for_printing_numbers_test" target="11" />
+      <module name="util_main" target="11" />
+      <module name="util_test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

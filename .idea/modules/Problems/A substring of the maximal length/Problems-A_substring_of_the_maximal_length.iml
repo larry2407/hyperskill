@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-A_substring_of_the_maximal_length" external.linked.project.path="$MODULE_DIR$/../../../../Problems/A substring of the maximal length" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="File_Type_Analyzer__Java_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/A substring of the maximal length">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A substring of the maximal length/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A substring of the maximal length/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/A substring of the maximal length/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
