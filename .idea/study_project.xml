@@ -1852,7 +1852,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public static void invokeMethods(Thread t1, Thread t2, Thread t3) throws InterruptedException {&#10;    // start passed instances here &#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -1968,6 +1968,146 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088497000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Motor static factory&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3325&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;In the very heart of suburbia, there stood a motor factory; in the very heart of that factory worked a programmer. Implement the static method &lt;code&gt;make&lt;/code&gt; of the &lt;code&gt;MotorStaticFactory&lt;/code&gt; that produces motors of different types. The method takes three parameters: the &lt;code&gt;type&lt;/code&gt; of a motor as a character, &lt;code&gt;model&lt;/code&gt; as a string, and &lt;code&gt;power&lt;/code&gt; as a long number. It should return a new motor according to the &lt;code&gt;type&lt;/code&gt; with initialized fields.&lt;/p&gt; &#10;  &lt;p&gt;Here is&amp;nbsp;the correspondence between the passed type and the class of the motor: &lt;code&gt;'P'&lt;/code&gt;&amp;nbsp;for&amp;nbsp;pneumatic, &lt;code&gt;'H'&lt;/code&gt;&amp;nbsp;for hydraulic, &lt;code&gt;'E'&lt;/code&gt;&amp;nbsp;for electric and&amp;nbsp;&lt;code&gt;'W'&lt;/code&gt;&amp;nbsp;for&amp;nbsp;warp. Ignore the upper/lower case when creating motors, i.e. &lt;code&gt;'p'&lt;/code&gt; must work as well as &lt;code&gt;'P'&lt;/code&gt;. If an invalid character is given, the method should return &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;Do not change the provided code of the motor classes.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3577&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3325" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3325" />
+                      <option name="index" value="34" />
+                      <option name="name" value="Motor static factory" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class MotorStaticFactory {&#10;&#10;    /**&#10;     * It returns an initialized motor according to the specified type by the first character:&#10;     * 'P' or 'p' - pneumatic, 'H' or 'h' - hydraulic, 'E' or 'e' - electric, 'W' or 'w' - warp.&#10;     */&#10;    public static Motor make(char type, String model, long power) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;/* Do not change code below */&#10;abstract class Motor {&#10;&#10;    String model;&#10;    long power;&#10;&#10;    public Motor(String model, long power) {&#10;        this.model = model;&#10;        this.power = power;&#10;    }&#10;}&#10;&#10;class PneumaticMotor extends Motor {&#10;&#10;    public PneumaticMotor(String model, long power) {&#10;        super(model, power);&#10;    }&#10;}&#10;&#10;class HydraulicMotor extends Motor {&#10;&#10;    public HydraulicMotor(String model, long power) {&#10;        super(model, power);&#10;    }&#10;}&#10;&#10;class ElectricMotor extends Motor {&#10;&#10;    public ElectricMotor(String model, long power) {&#10;        super(model, power);&#10;    }&#10;}&#10;&#10;class WarpDrive extends Motor {&#10;&#10;    public WarpDrive(String model, long power) {&#10;        super(model, power);&#10;    }&#10;}&#10;&#10;public class Main {&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final char type = scanner.next().charAt(0);&#10;        final String model = scanner.next();&#10;        final long power = scanner.nextLong();&#10;        final Motor motor = MotorStaticFactory.make(type, model, power);&#10;        if (motor == null) {&#10;            System.out.println(motor);&#10;        } else {&#10;            System.out.println(motor.getClass().getName() + &quot; &quot; + motor.model + &quot; &quot; + motor.power);&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1564656233000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Clock factory&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3324&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;There is a&amp;nbsp;hierarchy of clocks with the base interface &lt;code&gt;Clock&lt;/code&gt; and the class &lt;code&gt;ClockFactory&lt;/code&gt; to produces instances.&lt;/p&gt; &#10;  &lt;p&gt;Implement the method &lt;code&gt;produce&lt;/code&gt; of the factory. It should return a clock according to the specified type string:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&quot;SAND&quot; - &lt;code&gt;SandClock&lt;/code&gt;;&lt;/li&gt; &#10;   &lt;li&gt;&quot;DIGITAL&quot; - &lt;code&gt;DigitalClock&lt;/code&gt;;&lt;/li&gt; &#10;   &lt;li&gt;&quot;MECH&quot; - &lt;code&gt;MechanicalClock&lt;/code&gt;.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;The single constructor of the factory takes the boolean parameter &lt;code&gt;produceToyClock&lt;/code&gt;. It determines what the factory does when an unsuitable type of clock is passed. If it is &lt;code&gt;true&lt;/code&gt;, the factory should produce an instance of &lt;code&gt;ToyClock&lt;/code&gt;, otherwise,&amp;nbsp;return &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt; &#10;  &lt;p&gt;Do not change the provided code of the clock classes.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3577&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3324" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3324" />
+                      <option name="index" value="35" />
+                      <option name="name" value="Clock factory" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class ClockFactory {&#10;&#10;    private boolean produceToyClock;&#10;&#10;    public ClockFactory(boolean produceToyClock) {&#10;        this.produceToyClock = produceToyClock;&#10;    }&#10;&#10;    /**&#10;     * It produces a clock according to a specified type: SAND, DIGITAL or MECH.&#10;     * If some other type is passed, the method produces ToyClock.&#10;     */&#10;    public Clock produce(String type) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;/* Do not change code below */&#10;interface Clock {&#10;&#10;    void tick();&#10;}&#10;&#10;class SandClock implements Clock {&#10;&#10;    @Override&#10;    public void tick() {&#10;        System.out.println(&quot;...sand noise...&quot;);&#10;    }&#10;}&#10;&#10;class DigitalClock implements Clock {&#10;&#10;    @Override&#10;    public void tick() {&#10;        System.out.println(&quot;...pim...&quot;);&#10;    }&#10;}&#10;&#10;class MechanicalClock implements Clock {&#10;&#10;    @Override&#10;    public void tick() {&#10;        System.out.println(&quot;...clang mechanism...&quot;);&#10;    }&#10;}&#10;&#10;class ToyClock implements Clock {&#10;&#10;    @Override&#10;    public void tick() {&#10;        System.out.println(&quot;...tick...&quot;);&#10;    }&#10;}&#10;&#10;public class Main {&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final String type = scanner.next();&#10;        final boolean produceToy = scanner.nextBoolean();&#10;        final ClockFactory factory = new ClockFactory(produceToy);&#10;        final Clock clock = factory.produce(type);&#10;        if (clock != null) {&#10;            clock.tick();&#10;        } else {&#10;            System.out.println(clock);&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562793993000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Static factory methods for Time&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3328&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;The normal way to create an instance of a class is to use a public constructor of the class. But there is another technique. A class can provide a public static factory method that returns an instance of the class. An advantage of static factory methods is that they have names that make the code easier to read.&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;In this problem, you have the class &lt;code&gt;Time&lt;/code&gt; containing three fields: &lt;code&gt;hour&lt;/code&gt;, &lt;code&gt;minute&lt;/code&gt; and &lt;code&gt;second&lt;/code&gt;. Implement the following static factory methods of this class:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;code&gt;noon()&lt;/code&gt; returns an instance initialized with 12 hours, 0 minutes, and 0 seconds.&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;midnight()&lt;/code&gt; returns an instance initialized with 0 hours, 0 minutes, and 0 seconds.&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;of(int hour, int minute, int second)&lt;/code&gt; returns an instance initialized with passed hour, minute and second if the passed arguments are correct (hour: 0-23, minute: 0-59, seconds: 0-59), otherwise, &lt;code&gt;null&lt;/code&gt;.&lt;/li&gt; &#10;   &lt;li&gt;&lt;code&gt;ofSeconds(long seconds)&lt;/code&gt; returns an instance initialized with seconds passed since midnight; as an example, the invocation &lt;code&gt;Time.ofSeconds(500000)&lt;/code&gt; must create an instance with 18 hours, 53 minutes and 20 seconds (days are skipped);&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;As you see, the methods are more readable than the same constructors. If you want to create an instance of &lt;code&gt;Time&lt;/code&gt; representing noon, you can write:&lt;/p&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Time noon = Time.noon();&lt;/code&gt;&lt;/pre&gt; &#10;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; &#10;  &lt;p&gt;Note:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;do not change fields of the class &lt;code&gt;Time&lt;/code&gt;;&lt;/li&gt; &#10;   &lt;li&gt;in a real application, it may be better to throw an exception than return &lt;code&gt;null&lt;/code&gt; when arguments are incorrect.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;You must not read or output something in this problem. Just implement the static factory methods.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;noon&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;12 0 0&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;midnight&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0 0 0&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3577&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3328" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3328" />
+                      <option name="index" value="36" />
+                      <option name="name" value="Static factory methods for Time" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class Time {&#10;&#10;    int hour;&#10;    int minute;&#10;    int second;&#10;&#10;    public static Time noon() {&#10;        // write your code here&#10;    }&#10;&#10;    public static Time midnight() {&#10;        // write your code here&#10;    }&#10;&#10;    public static Time ofSeconds(long seconds) {&#10;        // write your code here&#10;    }&#10;&#10;    public static Time of(int hour, int minute, int second) {&#10;        // write your code here&#10;    }&#10;}&#10;&#10;/* Do not change code below */&#10;public class Main {&#10;&#10;    public static void main(String args[]) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;&#10;        final String type = scanner.next();&#10;        Time time = null;&#10;&#10;        switch (type) {&#10;            case &quot;noon&quot;:&#10;                time = Time.noon();&#10;                break;&#10;            case &quot;midnight&quot;:&#10;                time = Time.midnight();&#10;                break;&#10;            case &quot;hms&quot;:&#10;                int h = scanner.nextInt();&#10;                int m = scanner.nextInt();&#10;                int s = scanner.nextInt();&#10;                time = Time.of(h, m, s);&#10;                break;&#10;            case &quot;seconds&quot;:&#10;                time = Time.ofSeconds(scanner.nextInt());&#10;                break;&#10;            default:&#10;                time = null;&#10;                break;&#10;        }&#10;&#10;        if (time != null) {&#10;            System.out.println(String.format(&quot;%s %s %s&quot;, time.hour, time.minute, time.second));&#10;        } else {&#10;            System.out.println(time);&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562803388000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Laptop store&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/5769&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;The first part of the task is to imagine you are&amp;nbsp;the boss of a&amp;nbsp;&lt;em&gt;LaptopStore. &lt;/em&gt;The real task though is the code: your engineer should be able to create 17'', 15'' or 13'' laptops without any concrete details.&amp;nbsp;&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Making a 13 inch Laptop&lt;br&gt;Attaching keyboard&lt;br&gt;Attaching trackpad&lt;br&gt;Attaching display&lt;br&gt;Done a 13 inch Laptop&lt;br&gt;&lt;br&gt;Making a 15 inch Laptop&lt;br&gt;Attaching keyboard&lt;br&gt;Attaching trackpad&lt;br&gt;Attaching display&lt;br&gt;Done a 15 inch Laptop&lt;br&gt;&lt;br&gt;Making a 17 inch Laptop&lt;br&gt;Attaching keyboard&lt;br&gt;Attaching trackpad&lt;br&gt;Attaching display&lt;br&gt;Done a 17 inch Laptop&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/5761&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/5769" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5769" />
+                      <option name="index" value="37" />
+                      <option name="name" value="Laptop store" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class TestDrive {&#10;    public static void main(String[] args) throws InterruptedException {&#10;        LaptopStore laptopStore = /* write your code here */&#10;&#10;        Laptop laptop13 = laptopStore.orderLaptop(&quot;13 inch&quot;);&#10;        Laptop laptop15 = laptopStore.orderLaptop(&quot;15 inch&quot;);&#10;        Laptop laptop17 = laptopStore.orderLaptop(&quot;17 inch&quot;);&#10;    }&#10;}&#10;&#10;abstract class LaptopFactory {&#10;&#10;    abstract Laptop createLaptop(String type);&#10;&#10;    Laptop orderLaptop(String type) throws InterruptedException {&#10;        Laptop laptop = createLaptop(type);&#10;        if (laptop == null) {&#10;            System.out.println(&quot;Sorry, we are not able to create this kind of laptop\n&quot;);&#10;            return null;&#10;        }&#10;        System.out.println(&quot;Making a &quot; + laptop.getName());&#10;        laptop.attachKeyboard();&#10;        laptop.attachTrackpad();&#10;        laptop.attachDisplay();&#10;        Thread.sleep(1500L);&#10;        System.out.println(&quot;Done a &quot; + laptop.getName() + &quot;\n&quot;);&#10;        return laptop;&#10;    }&#10;}&#10;&#10;class LaptopStore extends LaptopFactory {&#10;    @Override&#10;    Laptop createLaptop(String type) {&#10;        switch (type) {&#10;            case &quot;13 inch&quot;:&#10;                return new Laptop13(&quot;13 inch Laptop&quot;);&#10;            case &quot;15 inch&quot;:&#10;                return new Laptop15(&quot;15 inch Laptop&quot;);&#10;            case &quot;17 inch&quot;:&#10;                return new Laptop17(&quot;17 inch Laptop&quot;);&#10;            default:&#10;                return null;&#10;        }&#10;    }&#10;}&#10;&#10;abstract class Laptop {&#10;    private String name;&#10;&#10;    Laptop(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    String getName() {&#10;        return name;&#10;    }&#10;&#10;    void attachKeyboard() {&#10;        System.out.println(&quot;Attaching keyboard&quot;);&#10;    }&#10;&#10;    void attachTrackpad() {&#10;        System.out.println(&quot;Attaching trackpad&quot;);&#10;    }&#10;&#10;    void attachDisplay() {&#10;        System.out.println(&quot;Attaching display&quot;);&#10;    }&#10;}&#10;&#10;class Laptop13 extends Laptop {&#10;    Laptop13(String name) {&#10;        super(name);&#10;    }&#10;}&#10;&#10;class Laptop15 extends Laptop {&#10;    Laptop15(String name) {&#10;        super(name);&#10;    }&#10;}&#10;&#10;class Laptop17 extends Laptop {&#10;    Laptop17(String name) {&#10;        super(name);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562952946000" />
                     </CodeTask>
                   </list>
                 </option>

@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/File Type Analyzer (Java)/task" />
             <option value="$PROJECT_DIR$/Problems/A substring of the maximal length" />
             <option value="$PROJECT_DIR$/Problems/Account Service" />
+            <option value="$PROJECT_DIR$/Problems/Clock factory" />
             <option value="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence" />
             <option value="$PROJECT_DIR$/Problems/Concat positive numbers" />
             <option value="$PROJECT_DIR$/Problems/Count the number of merge operations" />
@@ -23,8 +24,10 @@
             <option value="$PROJECT_DIR$/Problems/Getting current thread info" />
             <option value="$PROJECT_DIR$/Problems/IntBinaryOperation" />
             <option value="$PROJECT_DIR$/Problems/Iterations" />
+            <option value="$PROJECT_DIR$/Problems/Laptop store" />
             <option value="$PROJECT_DIR$/Problems/Max and Min" />
             <option value="$PROJECT_DIR$/Problems/Merge all sequences" />
+            <option value="$PROJECT_DIR$/Problems/Motor static factory" />
             <option value="$PROJECT_DIR$/Problems/Mutable geometric shapes" />
             <option value="$PROJECT_DIR$/Problems/Non-overlapping occurrences of a pattern" />
             <option value="$PROJECT_DIR$/Problems/Ordering execution of threads" />
@@ -37,6 +40,7 @@
             <option value="$PROJECT_DIR$/Problems/Shapes area" />
             <option value="$PROJECT_DIR$/Problems/Starting multiple threads - 1" />
             <option value="$PROJECT_DIR$/Problems/Starting multiple threads - 2" />
+            <option value="$PROJECT_DIR$/Problems/Static factory methods for Time" />
             <option value="$PROJECT_DIR$/Problems/The number of inversions" />
             <option value="$PROJECT_DIR$/Problems/The number of required shifts" />
             <option value="$PROJECT_DIR$/Problems/Users and WebSites" />

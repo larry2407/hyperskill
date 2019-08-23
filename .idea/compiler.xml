@@ -8,6 +8,8 @@
       <module name="Problems-A_substring_of_the_maximal_length_test" target="11" />
       <module name="Problems-Account_Service_main" target="11" />
       <module name="Problems-Account_Service_test" target="11" />
+      <module name="Problems-Clock_factory_main" target="11" />
+      <module name="Problems-Clock_factory_test" target="11" />
       <module name="Problems-Compact_strings_with_AsciiCharSequence_main" target="11" />
       <module name="Problems-Compact_strings_with_AsciiCharSequence_test" target="11" />
       <module name="Problems-Concat_positive_numbers_main" target="11" />
@@ -26,10 +28,14 @@
       <module name="Problems-IntBinaryOperation_test" target="11" />
       <module name="Problems-Iterations_main" target="11" />
       <module name="Problems-Iterations_test" target="11" />
+      <module name="Problems-Laptop_store_main" target="11" />
+      <module name="Problems-Laptop_store_test" target="11" />
       <module name="Problems-Max_and_Min_main" target="11" />
       <module name="Problems-Max_and_Min_test" target="11" />
       <module name="Problems-Merge_all_sequences_main" target="11" />
       <module name="Problems-Merge_all_sequences_test" target="11" />
+      <module name="Problems-Motor_static_factory_main" target="11" />
+      <module name="Problems-Motor_static_factory_test" target="11" />
       <module name="Problems-Mutable_geometric_shapes_main" target="11" />
       <module name="Problems-Mutable_geometric_shapes_test" target="11" />
       <module name="Problems-Non-overlapping_occurrences_of_a_pattern_main" target="11" />
@@ -54,6 +60,8 @@
       <module name="Problems-Starting_multiple_threads_-_1_test" target="11" />
       <module name="Problems-Starting_multiple_threads_-_2_main" target="11" />
       <module name="Problems-Starting_multiple_threads_-_2_test" target="11" />
+      <module name="Problems-Static_factory_methods_for_Time_main" target="11" />
+      <module name="Problems-Static_factory_methods_for_Time_test" target="11" />
       <module name="Problems-The_number_of_inversions_main" target="11" />
       <module name="Problems-The_number_of_inversions_test" target="11" />
       <module name="Problems-The_number_of_required_shifts_main" target="11" />
